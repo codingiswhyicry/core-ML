@@ -12,6 +12,7 @@
 		9CB05D081EE85DBE000E31DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB05D061EE85DBE000E31DA /* Main.storyboard */; };
 		9CB05D0A1EE85DBE000E31DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB05D091EE85DBE000E31DA /* Assets.xcassets */; };
 		9CB05D0D1EE85DBE000E31DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB05D0B1EE85DBE000E31DA /* LaunchScreen.storyboard */; };
+		9CB05D151EE85F7C000E31DA /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CB05D141EE85F7C000E31DA /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9CB05D091EE85DBE000E31DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB05D0C1EE85DBE000E31DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB05D0E1EE85DBE000E31DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB05D141EE85F7C000E31DA /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9CB05D011EE85DBE000E31DA /* CoreMLTests */ = {
 			isa = PBXGroup;
 			children = (
+				9CB05D141EE85F7C000E31DA /* GoogLeNetPlaces.mlmodel */,
 				9CB05D021EE85DBE000E31DA /* AppDelegate.swift */,
 				9CB05D041EE85DBE000E31DA /* ViewController.swift */,
 				9CB05D061EE85DBE000E31DA /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				9CB05D051EE85DBE000E31DA /* ViewController.swift in Sources */,
 				9CB05D031EE85DBE000E31DA /* AppDelegate.swift in Sources */,
+				9CB05D151EE85F7C000E31DA /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
